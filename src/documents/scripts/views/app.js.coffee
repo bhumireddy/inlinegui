@@ -36,6 +36,7 @@ class App extends View
 		'click .menu .button': 'clickMenuButton'
 		'click .button-login': 'clickLogin'
 		'click .button-add-site': 'clickAddSite'
+		'click .button-logout' : 'clickLogout'
 		'submit .site-add-form': 'submitSite'
 		'click .site-add-form .button-cancel': 'submitSiteCancel'
 
@@ -267,6 +268,10 @@ class App extends View
 		@$el.find('.site-add.modal').show()
 		@
 
+	clickLogout: (e) =>
+		alert 'hello.........'
+		@
+
 	# The website modal's save button was clicked
 	# So save our changes to the website
 	submitSite: (e) =>
@@ -318,6 +323,7 @@ class App extends View
 
 	# Handle menu effects
 	clickMenuButton: (e) =>
+
 		# Prepare
 		{$loadbar} = @
 		target = e.currentTarget
@@ -419,6 +425,7 @@ class App extends View
 	clickMenuLink: (e) =>
 		# Prepare
 		$target = $(e.currentTarget)
+
 
 		# Handle
 		switch true

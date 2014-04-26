@@ -40,6 +40,7 @@ aside '.app', ->
 
 			span '.toggle.toggle-preview', ->
 				span '.icon.icon-globe', ->
+			span '.link', -> a href: 'http://webwrite.github.io/inlinegui/', -> 'Logout'
 
 	section '.login.modal.main.show-login', ->
 		img '.button.button-login', alt:'Login', src:'/images/login.png', width:'95px', height:'25px', ->
@@ -78,6 +79,7 @@ aside '.app', ->
 				li '.button.button-add-site', ->
 					text 'Add Site'
 					span '.icon.icon-plus', ->
+				li '.button', -> a href: 'http://webwrite.github.io/inlinegui/', -> 'Logout'
 
 		div '.body', ->
 			div '.content-table.sites', ->

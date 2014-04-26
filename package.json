@@ -52,7 +52,7 @@
     "docpad": "~6.64.2",
     "docpad-plugin-coffeescript": "~2.4.0",
     "docpad-plugin-eco": "~2.0.3",
-    "docpad-plugin-marked": "~2.2.0",
+    "docpad-plugin-marked": "~2.2.1",
     "docpad-plugin-partials": "~2.9.0",
     "docpad-plugin-stylus": "~2.6.0",
     "docpad-plugin-text": "~2.3.2",
@@ -67,7 +67,9 @@
     "miniview": "~1.2.0",
     "spine-route": "~1.0.0",
     "pointers": "~1.1.0",
-    "docpad-plugin-browserifydocs": "~2.1.0"
+    "docpad-plugin-browserifydocs": "~2.1.0",
+    "backbone": "^1.1.2",
+    "stylus": "^0.43.1"
   },
   "devDependencies": {
     "docpad-plugin-livereload": "~2.6.0",
